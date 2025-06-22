@@ -16,6 +16,6 @@ Feel free to explore or fork this repository if you're building something simila
 
 ## 🌐 Live Site
 
-**Live URL:** [https://v9107.github.io/<your-repo-name>/](https://v9107.github.io/portfolio/)
+**Live URL:** [https://v9107.github.io/portfolio/](https://v9107.github.io/portfolio/)
 
 > 💡 Note: GitHub Pages automatically deploys this site from the `main` branch's `/docs` folder (or root directory).
