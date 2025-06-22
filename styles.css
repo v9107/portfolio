@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background-color: #fdfdfd;
+  color: #333;
+}
+h1,
+h2 {
+  color: #2c3e50;
+}
+
+header {
+  text-align: left;
+  margin-bottom: 0; /* Remove extra space below header */
+  padding-bottom: 0;
+}
+
+header h1 {
+  margin: 0 0 0.25rem 0; /* Reduce space under name */
+}
+
+section {
+  margin-top: 1rem; /* Add a small space from header */
+}
+
+.contact {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 0.5;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.skills,
+.education,
+.experience {
+  border-left: 4px solid #007acc;
+  padding-left: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.text {
+  flex: 1;
+}
+
+.image {
+  flex-shrink: 0;
+}
+
+.image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  /* border: 2px solid #ddd; */
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .image {
+    order: -1; /* Move image above text on small screens */
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contact .group {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 0.5em;
+  margin-top: 0;
+}
