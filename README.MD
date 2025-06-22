@@ -18,4 +18,6 @@ Feel free to explore or fork this repository if you're building something simila
 
 **Live URL:** [https://v9107.github.io/portfolio/](https://v9107.github.io/portfolio/)
 
-> 💡 Note: GitHub Pages automatically deploys this site from the `main` branch's `/docs` folder (or root directory).
+> ⚠️ Note: All **images, profile photo, and resume text** are **not licensed for reuse**.
+> They remain the personal property of **Venkatesh V. K.** and are not covered under the MIT License.
+
