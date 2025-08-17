@@ -1,0 +1,3 @@
+- [x] Convert the `SPA` to `Rust + wasm`
+- [ ] Add Github workflows for build the wasm application
+- [ ] Add some dynamic styles and animations
